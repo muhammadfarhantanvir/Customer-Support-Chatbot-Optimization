@@ -1,5 +1,5 @@
 # Customer Support Chatbot Optimization Project
-
+![chatbot](chatbot.png)
 ## Overview
 This project implements an automated customer support chatbot for e-commerce platforms, leveraging a fine-tuned GPT-2 model to generate responses to customer queries. The chatbot is trained on the [Bitext Customer Support LLM Chatbot Training Dataset](https://huggingface.co/datasets/bitext/Bitext-customer-support-llm-chatbot-training-dataset), which contains 26,872 real-world query-response pairs. The system evaluates responses using multiple metrics (BLEU, ROUGE, METEOR, BERTScore, Perplexity, and Cosine Similarity) and provides a Flask-based API for deployment. The project is designed to automate routine customer support tasks, improving efficiency and customer satisfaction.
 
@@ -209,7 +209,6 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 - **Bitext**: For providing the customer support dataset.
 - **Hugging Face**: For the `transformers` and `datasets` libraries.
 - **NLTK**: For tokenization and evaluation metrics.
-- **xAI**: For support in developing this project.
 
 ## Contact
 For questions or support, contact the project maintainer via GitHub or email (tanvirf07@gmail.com).
