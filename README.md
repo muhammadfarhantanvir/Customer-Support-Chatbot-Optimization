@@ -26,8 +26,8 @@ This project implements an automated customer support chatbot for e-commerce pla
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd customer-chatbot
+   git clone https://github.com/muhammadfarhantanvir/Customer-Support-Chatbot-Optimization.git
+   cd Customer-Support-Chatbot-Optimization
    ```
 
 2. **Set Up a Virtual Environment** (recommended):
