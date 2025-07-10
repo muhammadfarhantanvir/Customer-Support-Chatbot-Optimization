@@ -1,7 +1,18 @@
-# Customer Support Chatbot Optimization Project
+# Customer Support Chatbot Optimization 
 ![chatbot](chatbot.png)
+![chart](chart.png)
 ## Overview
 This project implements an automated customer support chatbot for e-commerce platforms, leveraging a fine-tuned GPT-2 model to generate responses to customer queries. The chatbot is trained on the [Bitext Customer Support LLM Chatbot Training Dataset](https://huggingface.co/datasets/bitext/Bitext-customer-support-llm-chatbot-training-dataset), which contains 26,872 real-world query-response pairs. The system evaluates responses using multiple metrics (BLEU, ROUGE, METEOR, BERTScore, Perplexity, and Cosine Similarity) and provides a Flask-based API for deployment. The project is designed to automate routine customer support tasks, improving efficiency and customer satisfaction.
+
+### Performance Analysis
+- **Metric Scores:**
+- **BERTScore** (0.8894) and **Cosine Similarity** (0.8529) are high, indicating strong semantic similarity between generated and ideal responses.
+- **BLEU** (0.0577) is low, suggesting limited n-gram overlap, which is common for conversational tasks where exact matches are rare.
+- **ROUGE-1** (0.3776) and ROUGE-L (0.2701) show moderate word and sequence overlap.
+- **METEOR** (0.2167) indicates reasonable semantic alignment but room for improvement.
+- **Implications:** The chatbot performs well on semantic metrics (BERTScore, Cosine Similarity) but struggles with exact word matches (BLEU), typical for fine-tuned GPT-2 on diverse datasets like Bitext.
+
+
 
 ### Key Features
 - **Response Generation**: Uses a fine-tuned GPT-2 model to generate contextually relevant responses to customer queries.
